@@ -41,9 +41,9 @@ $(document).ready(function(){
       $("#questions-box").empty();
       $("#timer").empty();
       $("#timer").hide();
-      $("#correct-answers").text("Correct answers (You know Sumn'): " + numCorrect);
-      $("#incorrect-answers").text("Incorrect answers (Big Cap!): " + numIncorrect);
-      $("#unanswered").text("Unaswered anserws (Go home Roger!): " + numUnanswered);
+      $("#correct-answers").text("Correct answers : " + numCorrect);
+      $("#incorrect-answers").text("Incorrect answers : " + numIncorrect);
+      $("#unanswered").text("Unaswered anserws : " + numUnanswered);
     }
   }
   
